@@ -12,5 +12,5 @@ mongoose.connect("mongodb://localhost:27017/BookstoreDB", { useNewUrlParser: tru
     .then(() => console.log("Connected to Database"))
     .catch(err => console.log("Database Connection Error:", err));
 
-const PORT = 3001;
+const PORT = 3241;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
